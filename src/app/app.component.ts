@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'first-angular-cli';
+  title = 'Tasks';
+  tasks:string[] = [];
+  task = "";
+
+  add():void{
+    this.tasks.push(this.task);
+  }
 }
