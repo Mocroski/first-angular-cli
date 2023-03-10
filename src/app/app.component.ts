@@ -7,10 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tasks';
-  tasks:string[] = [];
-  task = "";
 
-  add():void{
-    this.tasks.push(this.task);
-  }
 }
