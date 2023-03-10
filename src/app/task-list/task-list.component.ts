@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class TaskListComponent {
   tasks:string[] = [];
   task = "";
+  isAdmin = true;
 
   add():void{
     this.tasks.push(this.task);
