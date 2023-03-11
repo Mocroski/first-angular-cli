@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from './user';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tasks';
+  upperText:string = 'Display uppercase';
+  user: User = {
+    name: 'bob',
+    age: 25
+  }
 
 }
